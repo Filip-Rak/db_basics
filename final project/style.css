@@ -1,0 +1,134 @@
+.twoTables{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    width : 90%;
+    height : 600px;
+    padding: 5%;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+
+.tableBox{
+    flex: 1;
+    display: inline-block;
+
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 40%;
+    height: 90%;
+    overflow-y: scroll;
+    align-items: flex-start;
+    background-color: #e6f7ff ;
+    border: 2px blue solid;
+}
+
+.instanceBox{
+    display: flex;
+    vertical-align: top;
+    width : 100%;
+    height: 100px;
+    background-color: purple;
+    border: solid 3px black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.idBox{
+    text-align:center;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    border-left: none;
+    border-right: solid 2px black;
+    border-top: none;
+    border-bottom: none;
+    background-color: #04bfc5 ;
+}
+
+.contentBox{
+    text-align:center;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-left: none;
+    border-right: solid 2px black;
+    border-top: none;
+    border-bottom: none;
+}
+
+.contentBox input[type="text"], .doubleBox input[type="text"]{
+    width: 100%;
+    height: 98%;
+    padding: 0;
+    margin: 0; 
+    border: 1px solid #ccc;
+    background-color: #04bfc5; 
+}
+
+.element input[type="text"]{
+    width: 100%;
+    height: 60%;
+    padding: 0;
+    margin: 0; 
+    border: 1px solid #ccc;
+    background-color: #04bfc5; 
+}
+
+.doubleBox input[type="submit"] {
+    width: 100%; /* Rozciągnij przycisk na całą szerokość div-a */
+    height: 100%; /* Rozciągnij przycisk na całą wysokość div-a */
+    box-sizing: border-box; /* Upewnij się, że padding i border są wliczane do szerokości i wysokości */
+    padding: 0; /* Usuń padding, aby przycisk nie był większy niż div */
+    border: none; /* Usuń obramowanie, aby przycisk ładnie pasował do div-a */
+  }
+
+
+.doubleBox{
+    width: 20%;
+    height: 100%;
+    
+    background-color: #04bfc5;
+}
+
+.doubleBox .element{
+    width: 100%;
+    height: 49%;
+    border: none;
+    border-bottom: 2px black solid;
+    background-color: white;
+    background-color: #04bfc5;
+}
+
+#adding{
+    display: flex;
+    justify-content: space-between;
+}
+
+#adding form{
+    flex: 1;
+    display: inline-block;
+}
+
+#personIDBOX{
+    width:22%;
+}
+
+#bottom{
+    margin-top: 200px;
+    width:100%;
+    gap: 20%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBottom{
+    text-align: center;
+    justify-content: center;
+}

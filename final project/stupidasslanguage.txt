@@ -1,0 +1,2 @@
+composer dump-autoload
+php vendor/bin/doctrine orm:clear-cache:metadata
