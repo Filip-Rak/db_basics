@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 09, 2024 at 05:36 PM
+-- Generation Time: Jul 12, 2024 at 04:03 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -99,7 +99,6 @@ CREATE TABLE `tasks` (
 --
 
 INSERT INTO `tasks` (`ID`, `personID`, `content`, `isDone`) VALUES
-(16, 27, 'shooting obaama', 1),
 (17, 25, 'plant watering', 0),
 (18, 24, 'pipe inspection', 1),
 (19, 21, 'grave digging', 0),
